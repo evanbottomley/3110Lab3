@@ -5,6 +5,15 @@ public class BuddyInfo {
 	String buddyAddress;
 	String phoneNumber;
 	
+	public BuddyInfo() {
+		
+	}
+	
+	public BuddyInfo(String n, String a, String p) {
+		buddyName = n;
+		buddyAddress = a;
+		phoneNumber = p;
+	}
 	public String getBuddyName() {
 		return buddyName;
 	}
