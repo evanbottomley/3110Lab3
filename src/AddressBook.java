@@ -25,7 +25,7 @@ public class AddressBook {
 		homer.setPhoneNumber("613-888-7667");
 		AddressBook book = new AddressBook();
 		book.addBuddy(homer);
-		System.out.println("Added friend.");
+		System.out.println("Added friend. Address book should have 1 entry.");
 		book.printBook();
 		book.removeBuddy(homer);
 		System.out.println("Removed friend. Address book should now be empty.");
