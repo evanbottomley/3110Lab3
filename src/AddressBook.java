@@ -27,7 +27,7 @@ public class AddressBook {
 		book.addBuddy(homer);
 		book.printBook();
 		book.removeBuddy(homer);
-		System.out.println("Removed friend.");
+		System.out.println("Removed friend. Book should now be empty.");
 		book.printBook();
 		System.out.println("Test Complete.");
 	}
